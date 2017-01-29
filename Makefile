@@ -51,7 +51,7 @@ install-deps:
 .PHONY: compile
 compile:
 	export GOPATH=/tmp/gocode && mkdir -p $$GOPATH;
-	go get -u -d github.com/dinedal/textql;
+	go get -u github.com/dinedal/textql;
 	cd $$GOPATH/src/github.com/dinedal/textql && \
 		git checkout $(VERSION) && \
 		make \
