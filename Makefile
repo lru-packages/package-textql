@@ -35,7 +35,7 @@ info:
 
 .PHONY: clean
 clean:
-	rm -Rf /tmp/installdir* textql*
+	rm -Rf /tmp/installdir* textql* /tmp/gocode*
 
 #-------------------------------------------------------------------------------
 
